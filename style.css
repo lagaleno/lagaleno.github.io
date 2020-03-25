@@ -1,0 +1,11 @@
+/* css that apply to all pages */
+
+body {
+	background-color: #EBEBEB;
+	font-family: 'Open Sans Condensed', sans-serif; 
+}
+
+.sidenav-img {
+	margin-left: 3%;
+	margin-top: 2%;
+}
