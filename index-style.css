@@ -17,11 +17,6 @@ ul {
   margin-top: 2%;
 }
 
-li {
-	display: inline;
-	margin-left: 2%;
-	margin-right: 1%;
-}
 
 a {
 	color: #152026;
@@ -40,4 +35,10 @@ a:hover {
 #social-media {
 	margin-top: 3%;
 	margin-left: 5%;
+}
+
+#horizonal-menu {
+  	display: inline;
+	margin-left: 2%;
+	margin-right: 1%;
 }
