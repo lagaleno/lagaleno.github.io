@@ -19,6 +19,15 @@ body {
 	padding-top: 40%;
 }
 
+#title {
+	font-size: 4em;
+}
+
+#subtext {
+	margin-top: -65px;
+	color:#EF4545;
+}
+
 /*
 #rectangle {
 	width: 300px;
