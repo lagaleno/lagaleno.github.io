@@ -11,14 +11,22 @@ h2 {
 	margin-bottom: -10px;
 }
 
+p {
+	font-family: 'Nunito', sans-serif;
+}
+
+li {
+	font-family: 'Nunito', sans-serif
+}
 
 
 /* ----- IDs ----- */
 
 #menu {
+	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 3em;
 	margin-right: 5%;
-	padding-top: 10%
+	padding-top: 10%;
 }
 
 #nav {
