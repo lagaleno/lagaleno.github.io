@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'Book';
+    src: url('../assets/font/AirbnbCerealBook.ttf');
+}
+@font-face { 
+    font-family: 'Light';
+    src: url('../assets/font/AirbnbCerealLight.ttf');
+}
+@font-face {
+    font-family: 'Medium';
+    src: url('../assets/font/AirbnbCerealMedium.ttf');
+}
+@font-face {
+    font-family: 'Bold';
+    src: url('../assets/font/AirbnbCerealBold.ttf');
+}
+@font-face {
+    font-family: 'ExtraBold';
+    src: url('../assets/font/AirbnbCerealExtraBold.ttf');
+}
+@font-face {
+    font-family: 'Black';
+    src: url('../assets/font/AirbnbCerealBlack.ttf');
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+footer {
+    background-color:#D4563D !important;
+    font-family: Medium;
+    width: 100%;
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
+
+#intro {
+    background-color: #9E3222;
+    padding-bottom: 25px;
+    padding-top: 40px;
+}
+
+#projects {
+    padding-top: 48px;
+}
+
+#cards {
+    padding-top: 40px;
+}
+
+.name {
+    font-family: Bold;
+    color: #D4563D;
+    font-size: 3em;
+    margin-top: -20px;
+}
+
+.links {
+    font-family: Book;
+    margin-top: -60px; 
+    color: #FFFFFF;
+}
+
+.links a {
+    color: #FFFFFF;
+}
+
+.label {
+    background-color: #D4563D;
+    color: #FFFFFF;
+    font-family: Bold;
+    font-size: 0.9em;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.card-title {
+    margin-top: 16px;
+    font-family: Book;
+}
+
+.card-content {
+    font-family: Book;
+}
+
+.card-action {
+    font-family: ExtraBold;
+    
+}
+
+.card-action a {
+    color: #9E3222 !important;
+}
