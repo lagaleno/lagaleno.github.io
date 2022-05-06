@@ -1,3 +1,22 @@
+const links = [
+    {
+        label: 'linkedin',
+        link: 'https://www.linkedin.com/in/lagaleno/'
+    },
+    {
+        label: 'resume',
+        link: 'https://drive.google.com/file/d/15yDm7dEJbU4JEUI0ryQqO80Z_ZWcVFn3/view?usp=sharing'
+    },
+    {
+        label: 'github',
+        link: 'https://github.com/lagaleno'
+    },
+    {
+        label: 'mail',
+        link: 'mailto: galenolarissa@gmail.com'
+    }
+
+]
 
 const nav = `
     <div class="container">
@@ -8,10 +27,10 @@ const nav = `
                 <p class="name"> LARISSA GALENO </p>
 
                 <div class="links">
-                    <a href="https://www.linkedin.com/in/lagaleno/" target='_blank'>linkedin</a> | 
-                    <a href="https://drive.google.com/file/d/13Wd2fouvI6JevvOx-M3C38czxPHLuchu/view?usp=sharing" target='_blank'>resume</a> | 
-                    <a href="https://github.com/lagaleno" target='_blank'>github</a> | 
-                    <a href='mailto: galeno@dcc.ufrj.br' target='_blank'>mail</a>
+                    <a href=${links[0].link} target='_blank'>${links[0].label}</a> | 
+                    <a href="${links[1].link}" target='_blank'>${links[1].label}</a> | 
+                    <a href="${links[2].link}" target='_blank'>${links[2].label}</a> | 
+                    <a href="${links[3].link}" target='_blank'>${links[3].label}</a>
                 </div>
                 
             </div>
@@ -24,13 +43,13 @@ const nav = `
                     <li><div class="user-view center">
                         <p class="name"> LARISSA GALENO </p>
                     </div></li>
-                    <li><a href="https://www.linkedin.com/in/lagaleno/" target='_blank'>linkedin</a></li>
+                    <li><a href="${links[0].link}" target='_blank'>${links[0].label}</a></li>
                     <li><div class="divider"></div></li>
-                    <li><a href="https://drive.google.com/file/d/13Wd2fouvI6JevvOx-M3C38czxPHLuchu/view?usp=sharing" target='_blank'>resume</a></li>
+                    <li><a href="${links[1].link}" target='_blank'>${links[1].label}</a></li>
                     <li><div class="divider"></div></li>
-                    <li><a href="https://github.com/lagaleno" target='_blank'>github</a></li>
+                    <li><a href="${links[2].link}" target='_blank'>${links[2].label}</a></li>
                     <li><div class="divider"></div></li>
-                    <li><a href='mailto: galeno@dcc.ufrj.br' target='_blank'>mail</a></li>
+                    <li><a href="${links[3].link}" target='_blank'>${links[3].label}</a></li>
                 </ul>
                 <div class='col s1 offset-s10' style="margin-top: -30px">
                     <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons white-text right-align" id="menu">menu</i></a>
