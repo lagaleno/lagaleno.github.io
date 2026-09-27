@@ -21,6 +21,7 @@ Todo o conteúdo fica em `data/`:
 | `data/site.json` | Nome, apresentação (`bio`), foto (`photo`), links, contatos do cartão, créditos e textos de introdução das páginas |
 | `data/publicacoes.json` | Lista de publicações (`publicacoes.html`) |
 | `data/cursos.json` | Lista de cursos (`cursos.html`) e página de cada curso (`curso.html?id=<id>`) |
+| `data/curriculo.json` | Currículo (`curriculo.html`): experiência, formação, prêmios, idiomas e o PDF de cada idioma. As publicações do currículo vêm de `publicacoes.json` |
 
 ### Português e inglês
 
@@ -37,6 +38,7 @@ Se faltar a versão de um idioma, o site usa a outra. Os textos fixos da interfa
 - **Destaques da home:** itens com `"featured": true` aparecem primeiro no carrossel; o restante é completado pelos mais recentes (máx. 6).
 - **Publicação:** `url` (página do artigo), `pdf` e `doi` são opcionais — botões só aparecem quando preenchidos. Link direto: `publicacoes.html#<id>`.
 - **Curso:** `id` vira a URL da página (`curso.html?id=<id>`). Materiais aceitam `type`: `slides`, `pdf`, `video`, `code`, `folder` ou `link`. Material com `url` vazia aparece como "em breve".
+- **PDF do currículo:** os botões "Ver PDF" e "Baixar PDF" usam os arquivos em `files` de `curriculo.json`. Depois de editar o currículo, regenere os PDFs (PT e EN) a partir da própria página, com o servidor local rodando: `./scripts/gerar-pdf-curriculo.sh`. Se preferir usar um PDF próprio, coloque-o em `assets/docs/` e aponte o caminho em `files`.
 - **Foto:** coloque a imagem em `assets/img/` e aponte `photo` em `site.json` (ex.: `"assets/img/foto.jpg"`). Sem foto, aparece o logo.
 
 ## Estrutura

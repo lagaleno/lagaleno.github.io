@@ -1,0 +1,301 @@
+{
+  "fullName": "Larissa Monteiro da Fonseca Galeno, MSc",
+  "headline": {
+    "pt": "Doutoranda em Engenharia de Sistemas e Computação (PESC/COPPE/UFRJ) · Product Manager",
+    "en": "PhD student in Systems and Computer Engineering (PESC/COPPE/UFRJ) · Product Manager"
+  },
+  "summary": {
+    "pt": "Pesquiso engenharia de software com foco em pessoas: experiência do usuário, técnicas de validação como Technology Probe, fatores humanos em equipes de software e diversidade de gênero na tecnologia. Tenho experiência na indústria como desenvolvedora full-stack e front-end e hoje atuo como Product Manager.",
+    "en": "I research software engineering with a focus on people: user experience, validation techniques such as Technology Probe, human factors in software teams and gender diversity in technology. I have industry experience as a full-stack and front-end developer and currently work as a Product Manager."
+  },
+  "files": {
+    "pt": "assets/docs/curriculo-larissa-galeno.pdf",
+    "en": "assets/docs/resume-larissa-galeno.pdf"
+  },
+  "sections": [
+    {
+      "id": "education",
+      "title": {
+        "pt": "Formação",
+        "en": "Education"
+      },
+      "items": [
+        {
+          "title": {
+            "pt": "Doutorado em Engenharia de Sistemas e Computação",
+            "en": "PhD in Systems and Computer Engineering"
+          },
+          "org": {
+            "pt": "Universidade Federal do Rio de Janeiro (UFRJ) — PESC/COPPE",
+            "en": "Federal University of Rio de Janeiro (UFRJ) — PESC/COPPE"
+          },
+          "location": "Rio de Janeiro, RJ",
+          "start": "2025",
+          "end": "",
+          "tags": [
+            {
+              "pt": "engenharia de software",
+              "en": "software engineering"
+            }
+          ]
+        },
+        {
+          "title": {
+            "pt": "Mestrado em Engenharia de Sistemas e Computação",
+            "en": "MSc in Systems and Computer Engineering"
+          },
+          "org": {
+            "pt": "Universidade Federal do Rio de Janeiro (UFRJ) — PESC/COPPE",
+            "en": "Federal University of Rio de Janeiro (UFRJ) — PESC/COPPE"
+          },
+          "location": "Rio de Janeiro, RJ",
+          "start": "2022",
+          "end": "2025",
+          "description": {
+            "pt": "Dissertação: “Evolving a Validation Session with Technology Probe Technique to Support the Engineering of Contemporary Software Systems”.",
+            "en": "Dissertation: “Evolving a Validation Session with Technology Probe Technique to Support the Engineering of Contemporary Software Systems”."
+          },
+          "link": {
+            "label": {
+              "pt": "ler dissertação",
+              "en": "read dissertation"
+            },
+            "url": "https://pesc.coppe.ufrj.br/uploadfile/publicacao/3213.pdf"
+          },
+          "tags": [
+            "Technology Probe",
+            "UX"
+          ]
+        },
+        {
+          "title": {
+            "pt": "Bacharelado em Ciência da Computação",
+            "en": "BSc in Computer Science"
+          },
+          "org": {
+            "pt": "Universidade Federal do Rio de Janeiro (UFRJ) — Departamento de Ciência da Computação",
+            "en": "Federal University of Rio de Janeiro (UFRJ) — Computer Science Department"
+          },
+          "location": "Rio de Janeiro, RJ",
+          "start": "2016",
+          "end": "2022",
+          "tags": [
+            {
+              "pt": "ciência da computação",
+              "en": "computer science"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "experience",
+      "title": {
+        "pt": "Experiência profissional",
+        "en": "Professional experience"
+      },
+      "items": [
+        {
+          "title": "Product Manager",
+          "org": "COPPETEC / Funasa",
+          "location": "Rio de Janeiro, RJ",
+          "start": "2025-03",
+          "end": "",
+          "description": {
+            "pt": "Definição de requisitos de software e gestão de equipes de desenvolvimento para a entrega do projeto.",
+            "en": "Defining software requirements and managing development teams to deliver the project."
+          },
+          "tags": [
+            "product management",
+            {
+              "pt": "requisitos",
+              "en": "requirements"
+            }
+          ]
+        },
+        {
+          "title": {
+            "pt": "Desenvolvedora full-stack",
+            "en": "Full-stack developer"
+          },
+          "org": "Grupo Soma",
+          "location": "Rio de Janeiro, RJ",
+          "start": "2022-07",
+          "end": "2023-04",
+          "description": {
+            "pt": "Desenvolvimento de soluções tecnológicas para a indústria da moda brasileira, com foco na construção de APIs e interfaces.",
+            "en": "Developed technology solutions for the Brazilian fashion industry, focusing on building APIs and user interfaces."
+          },
+          "tags": [
+            "full-stack",
+            "APIs",
+            "front-end"
+          ]
+        },
+        {
+          "title": {
+            "pt": "Estagiária de pesquisa",
+            "en": "Research intern"
+          },
+          "org": "IBM Research",
+          "location": "Rio de Janeiro, RJ",
+          "start": "2021-08",
+          "end": "2022-07",
+          "description": {
+            "pt": "Apoio a pesquisadores da IBM Research no desenvolvimento de software e na análise de dados para seus artigos científicos.",
+            "en": "Supported IBM Research scientists in building software and running data analyses for their papers."
+          },
+          "tags": [
+            {
+              "pt": "pesquisa",
+              "en": "research"
+            },
+            {
+              "pt": "análise de dados",
+              "en": "data analysis"
+            },
+            "HCI"
+          ]
+        },
+        {
+          "title": {
+            "pt": "Estagiária de engenharia front-end",
+            "en": "Front-end engineering intern"
+          },
+          "org": "Grupo Boticário",
+          "location": "Rio de Janeiro, RJ",
+          "start": "2021-01",
+          "end": "2021-08",
+          "description": {
+            "pt": "Desenvolvimento do front-end de um novo produto com React.js e CMS, sempre com atenção à experiência do usuário, além de documentação e preparação para o lançamento.",
+            "en": "Developed the front-end of a new product with React.js and a CMS, keeping the user experience in focus, and contributed to documentation and launch preparation."
+          },
+          "tags": [
+            "React.js",
+            "CMS",
+            "front-end",
+            "UX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "publications",
+      "title": {
+        "pt": "Publicações",
+        "en": "Publications"
+      },
+      "source": "publicacoes"
+    },
+    {
+      "id": "awards",
+      "title": {
+        "pt": "Prêmios",
+        "en": "Awards"
+      },
+      "items": [
+        {
+          "title": {
+            "pt": "Prêmio Elisa Frota Pessoa (2ª edição) — 1º lugar",
+            "en": "Elisa Frota Pessoa Award (2nd edition) — 1st place"
+          },
+          "org": {
+            "pt": "Prêmio de pesquisa",
+            "en": "Research award"
+          },
+          "location": "Rio de Janeiro, RJ",
+          "date": "2024-11",
+          "description": {
+            "pt": "1º lugar na categoria mestrado com a pesquisa sobre diversidade de gênero e programas de mentoria para mulheres na tecnologia: “ConectAda: Plataforma de Mentoria para Apoiar Mulheres em Tecnologia”.",
+            "en": "First place in the master's category with research on gender diversity and mentoring programs for women in technology: “ConectAda: Plataforma de Mentoria para Apoiar Mulheres em Tecnologia”."
+          },
+          "tags": [
+            {
+              "pt": "diversidade de gênero",
+              "en": "gender diversity"
+            },
+            {
+              "pt": "mentoria",
+              "en": "mentoring"
+            }
+          ]
+        },
+        {
+          "title": {
+            "pt": "Prêmio Elisa Frota Pessoa (1ª edição) — 1º lugar",
+            "en": "Elisa Frota Pessoa Award (1st edition) — 1st place"
+          },
+          "org": {
+            "pt": "Prêmio de pesquisa",
+            "en": "Research award"
+          },
+          "location": "Rio de Janeiro, RJ",
+          "date": "2023-11",
+          "description": {
+            "pt": "1º lugar na categoria mestrado com a pesquisa sobre LLMs e diversidade de gênero: “ValerIA: Large Language Model application to promote gender equality in technology”.",
+            "en": "First place in the master's category with research on LLMs and gender diversity: “ValerIA: Large Language Model application to promote gender equality in technology”."
+          },
+          "tags": [
+            "LLM",
+            {
+              "pt": "diversidade de gênero",
+              "en": "gender diversity"
+            }
+          ]
+        },
+        {
+          "title": {
+            "pt": "HACKNIT (1ª edição) — 2º lugar",
+            "en": "HACKNIT (1st edition) — 2nd place"
+          },
+          "org": {
+            "pt": "Hackathon — competidora como programadora",
+            "en": "Hackathon — competitor as a programmer"
+          },
+          "location": "Rio de Janeiro, RJ",
+          "date": "2018-08",
+          "description": {
+            "pt": "Desenvolvimento de um sistema para ajudar pais e responsáveis a acompanhar a situação escolar dos filhos. O projeto ficou em 2º lugar.",
+            "en": "Built a system to help parents keep track of their children's situation at school. The project won second place."
+          },
+          "tags": [
+            "hackathon"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "languages",
+      "title": {
+        "pt": "Idiomas",
+        "en": "Languages"
+      },
+      "items": [
+        {
+          "title": {
+            "pt": "Português",
+            "en": "Portuguese"
+          },
+          "org": {
+            "pt": "Nativo",
+            "en": "Native"
+          }
+        },
+        {
+          "title": {
+            "pt": "Inglês",
+            "en": "English"
+          },
+          "org": {
+            "pt": "Fluente",
+            "en": "Fluent"
+          },
+          "description": {
+            "pt": "Certificate in Advanced English (CAE): nota B (193/210), novembro de 2024. Master Course na Sociedade Brasileira de Cultura Inglesa (Niterói, RJ), 2015.",
+            "en": "Certificate in Advanced English (CAE): Grade B (193/210), November 2024. Master Course at Sociedade Brasileira de Cultura Inglesa (Niterói, RJ), 2015."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -52,7 +52,6 @@
       "en": "Students and professionals interested in interface design"
     },
     "format": { "pt": "Minicurso", "en": "Short course" },
-    "featured": true,
     "tags": ["ui/ux", { "pt": "IHC", "en": "HCI" }, "figma"],
     "summary": {
       "pt": "EXEMPLO — introdução prática a design de interfaces: pesquisa com usuários, avaliação heurística, prototipação no Figma e testes de usabilidade.",

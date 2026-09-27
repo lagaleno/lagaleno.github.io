@@ -67,6 +67,7 @@
     { id: 'home', key: 'nav.home', href: 'index.html' },
     { id: 'publicacoes', key: 'nav.pubs', href: 'publicacoes.html' },
     { id: 'cursos', key: 'nav.courses', href: 'cursos.html' },
+    { id: 'curriculo', key: 'nav.cv', href: 'curriculo.html' },
     { id: 'contato', key: 'nav.contact', href: 'index.html#contato' },
   ];
 
@@ -87,6 +88,7 @@
     search: '<circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>',
     copy: '<rect x="8" y="8" width="14" height="14" rx="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/>',
     check: '<path d="M20 6 9 17l-5-5"/>',
+    download: '<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/>',
     pdf: '<path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M16 13H8"/><path d="M16 17H8"/><path d="M10 9H8"/>',
     slides: '<path d="M2 3h20"/><path d="M21 3v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V3"/><path d="m7 21 5-5 5 5"/>',
     video: '<circle cx="12" cy="12" r="10"/><path d="m10 8 6 4-6 4Z"/>',

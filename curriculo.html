@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="meta.cv">Currículo · Larissa Galeno</title>
+  <meta name="description" content="Currículo de Larissa Galeno: formação, experiência, publicações e prêmios. / Résumé: education, experience, publications and awards.">
+  <meta name="theme-color" content="#9E3222">
+  <link rel="icon" href="assets/img/brand/logo.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/font/AirbnbCerealBook.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/i18n.js" defer></script>
+  <script src="js/core.js" defer></script>
+  <script src="js/curriculo.js" defer></script>
+</head>
+<body data-page="curriculo">
+  <a class="skip-link" href="#main" data-i18n="nav.skip">Pular para o conteúdo</a>
+  <header class="site-header" id="site-header"></header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="pattern pattern--fade-left" aria-hidden="true"></div>
+      <div class="container">
+        <div class="page-hero__inner">
+          <span class="eyebrow" data-i18n="cv.eyebrow">trajetória</span>
+          <h1 class="page-hero__title" data-i18n="cv.title">Currículo</h1>
+          <p class="page-hero__intro" id="cv-headline"></p>
+          <div class="page-hero__actions" id="cv-files"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cabeçalho usado só na impressão / PDF -->
+    <header class="cv-print-head" id="cv-print-head" aria-hidden="true"></header>
+
+    <section class="section cv">
+      <div class="container">
+        <ul class="cv-stats" id="cv-stats"></ul>
+        <p class="cv-summary" id="cv-summary"></p>
+
+        <div class="cv-toolbar" role="search">
+          <label class="search">
+            <span class="sr-only" data-i18n="cv.searchLabel">Buscar no currículo</span>
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            <input type="search" id="cv-search" placeholder="Buscar…" data-i18n-attr="placeholder:cv.search" autocomplete="off">
+          </label>
+          <div class="chips" id="cv-sections" role="group" aria-label="Filtrar por seção" data-i18n-attr="aria-label:cv.filter"></div>
+        </div>
+        <p class="result-count" id="cv-count" aria-live="polite"></p>
+
+        <div id="cv-body">
+          <div class="skeleton" style="min-height: 320px"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="site-footer"></footer>
+</body>
+</html>

@@ -1,47 +1,100 @@
 {
   "name": "Larissa Galeno",
   "role": {
-    "pt": "Computação · Ensino · Pesquisa",
-    "en": "Computing · Teaching · Research"
+    "pt": "Doutoranda em Engenharia de Sistemas e Computação · PESC/COPPE/UFRJ",
+    "en": "PhD student in Systems and Computer Engineering · PESC/COPPE/UFRJ"
   },
   "photo": "",
   "bio": {
     "pt": [
-      "Sou da área de Computação e trabalho na interseção entre pesquisa, ensino e desenvolvimento. Me interesso por interação humano-computador, UI/UX, ciência de dados e desenvolvimento front-end.",
-      "Desde a graduação ensino programação — de monitorias a cursos próprios de Python — e acredito que compartilhar conhecimento é parte essencial do trabalho científico."
+      "Sou doutoranda no PESC/COPPE/UFRJ, onde também fiz o mestrado, e pesquiso engenharia de software com foco em pessoas: experiência do usuário, técnicas de validação como Technology Probe, fatores humanos em equipes de software e diversidade de gênero na tecnologia.",
+      "Antes da pesquisa, passei pela indústria como desenvolvedora front-end e full-stack e como estagiária na IBM Research. Hoje atuo como Product Manager e sigo ensinando programação, porque acredito que compartilhar conhecimento é parte essencial do trabalho científico."
     ],
     "en": [
-      "I work in Computing, at the intersection of research, teaching and development. I'm interested in human-computer interaction, UI/UX, data science and front-end development.",
-      "I've been teaching programming since my undergraduate years — from tutoring to my own Python courses — and I believe sharing knowledge is an essential part of scientific work."
+      "I'm a PhD student at PESC/COPPE/UFRJ, where I also earned my master's degree, and I research software engineering with a focus on people: user experience, validation techniques such as Technology Probe, human factors in software teams and gender diversity in technology.",
+      "Before research, I worked in industry as a front-end and full-stack developer and as an intern at IBM Research. Today I work as a Product Manager and keep teaching programming, because I believe sharing knowledge is an essential part of scientific work."
     ]
   },
   "links": [
     {
-      "label": { "pt": "currículo", "en": "résumé" },
-      "url": "https://drive.google.com/file/d/15yDm7dEJbU4JEUI0ryQqO80Z_ZWcVFn3/view?usp=sharing"
+      "label": {
+        "pt": "currículo",
+        "en": "résumé"
+      },
+      "url": "curriculo.html"
     },
-    { "label": "linkedin", "url": "https://www.linkedin.com/in/lagaleno/" },
-    { "label": "github", "url": "https://github.com/lagaleno" }
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=8eaauT4AAAAJ"
+    },
+    {
+      "label": "Lattes",
+      "url": "http://lattes.cnpq.br/8394957969514296"
+    },
+    {
+      "label": "ORCID",
+      "url": "https://orcid.org/0009-0001-9025-552X"
+    },
+    {
+      "label": "linkedin",
+      "url": "https://www.linkedin.com/in/lagaleno/"
+    },
+    {
+      "label": "github",
+      "url": "https://github.com/lagaleno"
+    }
   ],
   "contact": [
-    { "type": "email", "label": "galeno@cos.ufrj.br", "url": "mailto:galeno@cos.ufrj.br" },
-    { "type": "telegram", "label": "@lagaleno", "url": "https://t.me/lagaleno" },
-    { "type": "website", "label": "lagaleno.github.io", "url": "https://lagaleno.github.io" }
+    {
+      "type": "email",
+      "label": "galeno@cos.ufrj.br",
+      "url": "mailto:galeno@cos.ufrj.br"
+    },
+    {
+      "type": "telegram",
+      "label": "@lagaleno",
+      "url": "https://t.me/lagaleno"
+    },
+    {
+      "type": "website",
+      "label": "lagaleno.github.io",
+      "url": "https://lagaleno.github.io"
+    }
   ],
   "credits": [
-    { "label": { "pt": "feito por", "en": "made by" }, "name": "@lagaleno", "url": "https://github.com/lagaleno" },
-    { "label": { "pt": "id visual", "en": "visual identity" }, "name": "@isabelacortese", "url": "" }
+    {
+      "label": {
+        "pt": "feito por",
+        "en": "made by"
+      },
+      "name": "@lagaleno",
+      "url": "https://github.com/lagaleno"
+    },
+    {
+      "label": {
+        "pt": "id visual",
+        "en": "visual identity"
+      },
+      "name": "@isabelacortese",
+      "url": ""
+    }
   ],
   "pages": {
     "publicacoes": {
-      "eyebrow": { "pt": "produção acadêmica", "en": "research" },
+      "eyebrow": {
+        "pt": "produção acadêmica",
+        "en": "research"
+      },
       "intro": {
         "pt": "Artigos, capítulos e trabalhos que publiquei. Leia o resumo de cada um e acesse o texto completo.",
         "en": "Papers, chapters and other work I've published. Read each abstract and access the full text."
       }
     },
     "cursos": {
-      "eyebrow": { "pt": "ensino", "en": "teaching" },
+      "eyebrow": {
+        "pt": "ensino",
+        "en": "teaching"
+      },
       "intro": {
         "pt": "Cursos, minicursos e oficinas que já lecionei. Entre em cada um para ver o conteúdo e acessar o material.",
         "en": "Courses, short courses and workshops I've taught. Open each one to see the syllabus and access the material."
