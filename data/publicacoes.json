@@ -1,0 +1,67 @@
+[
+  {
+    "id": "usabilidade-portais-dados-abertos",
+    "type": "conference",
+    "title": {
+      "pt": "Avaliação de usabilidade em portais de dados abertos: um estudo de caso",
+      "en": "Usability evaluation of open data portals: a case study"
+    },
+    "authors": ["Larissa Galeno", "Coautora Exemplo"],
+    "venue": "Anais do Evento Exemplo",
+    "year": 2022,
+    "featured": true,
+    "abstract": {
+      "pt": "EXEMPLO — substitua pelo resumo real em data/publicacoes.json. Portais de dados abertos vêm ganhando relevância, mas nem sempre são fáceis de usar. Este trabalho apresenta uma avaliação heurística de um portal, propõe uma nova interface e relata sessões de teste de usabilidade com usuários para verificar se a proposta resolve os problemas encontrados.",
+      "en": "EXAMPLE — replace with the real abstract in data/publicacoes.json. Open data portals are gaining relevance, but they are not always easy to use. This work presents a heuristic evaluation of a portal, proposes a new interface and reports usability testing sessions with users to check whether the proposal solves the problems found."
+    },
+    "keywords": {
+      "pt": ["usabilidade", "dados abertos", "IHC"],
+      "en": ["usability", "open data", "HCI"]
+    },
+    "url": "",
+    "pdf": "",
+    "doi": ""
+  },
+  {
+    "id": "sistema-recomendacao-musica",
+    "type": "article",
+    "title": {
+      "pt": "Recomendação de músicas por similaridade usando dados da API do Spotify",
+      "en": "Similarity-based music recommendation using Spotify API data"
+    },
+    "authors": ["Larissa Galeno"],
+    "venue": "Periódico Exemplo",
+    "year": 2021,
+    "featured": true,
+    "abstract": {
+      "pt": "EXEMPLO — substitua pelo resumo real em data/publicacoes.json. Investigamos métodos numéricos e medidas de similaridade para recomendar músicas a partir de uma música de entrada, usando atributos disponibilizados pela API do Spotify, e discutimos visualizações para interpretar os resultados.",
+      "en": "EXAMPLE — replace with the real abstract in data/publicacoes.json. We investigate numerical methods and similarity measures to recommend songs from an input song, using features provided by the Spotify API, and discuss visualizations to interpret the results."
+    },
+    "keywords": {
+      "pt": ["ciência de dados", "sistemas de recomendação"],
+      "en": ["data science", "recommender systems"]
+    },
+    "url": "",
+    "pdf": "",
+    "doi": ""
+  },
+  {
+    "id": "ensino-programacao-python",
+    "type": "chapter",
+    "title": "Ensinando programação com Python para iniciantes: relato de experiência",
+    "authors": ["Larissa Galeno", "Coautor Exemplo"],
+    "venue": "Livro Exemplo sobre Educação em Computação",
+    "year": 2020,
+    "abstract": {
+      "pt": "EXEMPLO — substitua pelo resumo real em data/publicacoes.json. Relatamos a construção e aplicação de um curso introdutório de Python para estudantes de graduação, incluindo a organização do material, as dinâmicas em sala e os resultados de um questionário de avaliação aplicado ao final do curso.",
+      "en": "EXAMPLE — replace with the real abstract in data/publicacoes.json. We report on building and teaching an introductory Python course for undergraduate students, including how the material was organized, the classroom dynamics and the results of an evaluation survey applied at the end of the course."
+    },
+    "keywords": {
+      "pt": ["educação", "python", "ensino de programação"],
+      "en": ["education", "python", "programming education"]
+    },
+    "url": "",
+    "pdf": "",
+    "doi": ""
+  }
+]

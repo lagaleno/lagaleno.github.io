@@ -1,0 +1,51 @@
+{
+  "name": "Larissa Galeno",
+  "role": {
+    "pt": "Computação · Ensino · Pesquisa",
+    "en": "Computing · Teaching · Research"
+  },
+  "photo": "",
+  "bio": {
+    "pt": [
+      "Sou da área de Computação e trabalho na interseção entre pesquisa, ensino e desenvolvimento. Me interesso por interação humano-computador, UI/UX, ciência de dados e desenvolvimento front-end.",
+      "Desde a graduação ensino programação — de monitorias a cursos próprios de Python — e acredito que compartilhar conhecimento é parte essencial do trabalho científico."
+    ],
+    "en": [
+      "I work in Computing, at the intersection of research, teaching and development. I'm interested in human-computer interaction, UI/UX, data science and front-end development.",
+      "I've been teaching programming since my undergraduate years — from tutoring to my own Python courses — and I believe sharing knowledge is an essential part of scientific work."
+    ]
+  },
+  "links": [
+    {
+      "label": { "pt": "currículo", "en": "résumé" },
+      "url": "https://drive.google.com/file/d/15yDm7dEJbU4JEUI0ryQqO80Z_ZWcVFn3/view?usp=sharing"
+    },
+    { "label": "linkedin", "url": "https://www.linkedin.com/in/lagaleno/" },
+    { "label": "github", "url": "https://github.com/lagaleno" }
+  ],
+  "contact": [
+    { "type": "email", "label": "galeno@cos.ufrj.br", "url": "mailto:galeno@cos.ufrj.br" },
+    { "type": "telegram", "label": "@lagaleno", "url": "https://t.me/lagaleno" },
+    { "type": "website", "label": "lagaleno.github.io", "url": "https://lagaleno.github.io" }
+  ],
+  "credits": [
+    { "label": { "pt": "feito por", "en": "made by" }, "name": "@lagaleno", "url": "https://github.com/lagaleno" },
+    { "label": { "pt": "id visual", "en": "visual identity" }, "name": "@isabelacortese", "url": "" }
+  ],
+  "pages": {
+    "publicacoes": {
+      "eyebrow": { "pt": "produção acadêmica", "en": "research" },
+      "intro": {
+        "pt": "Artigos, capítulos e trabalhos que publiquei. Leia o resumo de cada um e acesse o texto completo.",
+        "en": "Papers, chapters and other work I've published. Read each abstract and access the full text."
+      }
+    },
+    "cursos": {
+      "eyebrow": { "pt": "ensino", "en": "teaching" },
+      "intro": {
+        "pt": "Cursos, minicursos e oficinas que já lecionei. Entre em cada um para ver o conteúdo e acessar o material.",
+        "en": "Courses, short courses and workshops I've taught. Open each one to see the syllabus and access the material."
+      }
+    }
+  }
+}

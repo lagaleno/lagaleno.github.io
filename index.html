@@ -1,53 +1,81 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <!--Import Google Icon Font-->
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <!--Import materialize.css-->
-        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-        <!-- Import stylesheet-->
-        <link type="text/css" rel="stylesheet" href="css/styles.css"  media="screen,projection"/>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="meta.home">Larissa Galeno</title>
+  <meta name="description" content="Larissa Galeno — pesquisa, ensino e desenvolvimento. Publicações, cursos e contato. / Research, teaching and development. Publications, courses and contact.">
+  <meta name="theme-color" content="#9E3222">
+  <meta property="og:title" content="Larissa Galeno">
+  <meta property="og:description" content="Publicações, cursos e contato · Publications, courses and contact.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/img/brand/logo.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/font/AirbnbCerealBook.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="assets/font/AirbnbCerealBlack.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/i18n.js" defer></script>
+  <script src="js/core.js" defer></script>
+  <script src="js/home.js" defer></script>
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main" data-i18n="nav.skip">Pular para o conteúdo</a>
+  <header class="site-header" id="site-header"></header>
 
-        <!--Let browser know website is optimized for mobile-->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <!-- Favicon -->
-        <link rel="icon" href="assets/img/logo/logo.svg">
-        <!-- Title -->
-        <title>Larissa Galeno</title>
-    </head>
+  <main id="main">
+    <!-- Apresentação -->
+    <section class="hero" id="hero" aria-labelledby="hero-name">
+      <div class="hero__art" aria-hidden="true">
+        <div class="pattern pattern--fade pattern--drift"></div>
+      </div>
+      <div class="hero__photo" id="hero-photo">
+        <img class="hero__mark" src="assets/img/brand/logo-white.svg" alt="" width="588" height="858">
+      </div>
+      <div class="hero__content">
+        <span class="eyebrow" data-i18n="home.hello">olá, eu sou</span>
+        <h1 class="hero__name" id="hero-name"><span>Larissa</span><span>Galeno</span></h1>
+        <p class="hero__role" id="hero-role"></p>
+        <div class="hero__bio" id="hero-bio"></div>
+        <div class="hero__actions">
+          <a class="btn" href="publicacoes.html" data-i18n="home.btnPubs">Publicações</a>
+          <a class="btn btn--outline" href="cursos.html" data-i18n="home.btnCourses">Cursos</a>
+        </div>
+        <ul class="link-row" id="hero-links"></ul>
+      </div>
+    </section>
 
-    <body>
-        <section>
-            <div id="intro"> 
-                
-            </div>
+    <!-- Prévia de publicações e cursos -->
+    <section class="showcase" aria-labelledby="showcase-title">
+      <div class="pattern pattern--fade-right" aria-hidden="true"></div>
+      <div class="container showcase__inner">
+        <div class="reveal">
+          <h2 class="showcase__title" id="showcase-title">
+            <span><span data-i18n="home.sc1">Artigos</span><em>,</em></span>
+            <span><span data-i18n="home.sc2">Cursos</span><em>,</em></span>
+            <span><span data-i18n="home.sc3">Aulas</span><em>…</em></span>
+          </h2>
+          <div class="showcase__links">
+            <a class="btn btn--light btn--sm" href="publicacoes.html" data-i18n="home.allPubs">todas as publicações</a>
+            <a class="btn btn--light btn--sm" href="cursos.html" data-i18n="home.allCourses">todos os cursos</a>
+          </div>
+        </div>
+        <div class="carousel reveal" id="showcase-carousel" data-i18n-attr="aria-roledescription:carousel.role, aria-label:home.highlights">
+          <div class="skeleton" style="min-height: 340px"></div>
+        </div>
+      </div>
+    </section>
 
-            <div id="projects" class="container">
-                <div class="title center-align">
-                    <div style="font-family: ExtraBold; color: #E0E0E0; font-size: 3em;"> 
-                        P R O J E C T S
-                    </div>
-                    <div style="font-family: bold; color: #9E3222; font-size: 1em; margin-top: -30px">
-                        P R O J E C T S
-                    </div>
-                </div>
+    <!-- Contato -->
+    <section class="contact" id="contato" aria-labelledby="contato-title">
+      <div class="container">
+        <h2 class="stitle" id="contato-title">
+          <span class="stitle__ghost" aria-hidden="true" data-i18n="contact.title">contato</span>
+          <span class="stitle__label" data-i18n="contact.title">contato</span>
+        </h2>
+        <div class="contact__wrap reveal" id="contact-wrap"></div>
+      </div>
+    </section>
+  </main>
 
-                <div id="cards" class="row">
-
-                </div>
-
-            </div>
-        </section>
-
-        <footer class="page-footer" id="footer">
-
-        </footer>
-
-        <!--JavaScript at end of body for optimized loading-->
-        <script type="text/javascript" src="js/materialize.min.js"></script>
-        <script type="text/javascript" src="js/components/navbar.js"></script>
-        <script type="text/javascript" src="js/components/sidenav.js"></script>
-        <script type="text/javascript" src="js/components/cards.js"></script>
-        <script type="text/javascript" src="js/components/footer.js"></script>
-    </body>
+  <footer class="site-footer" id="site-footer"></footer>
+</body>
 </html>

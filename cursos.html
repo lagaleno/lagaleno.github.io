@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="meta.courses">Cursos · Larissa Galeno</title>
+  <meta name="description" content="Cursos, minicursos e oficinas lecionados por Larissa Galeno, com conteúdo e material.">
+  <meta name="theme-color" content="#9E3222">
+  <link rel="icon" href="assets/img/brand/logo.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/font/AirbnbCerealBook.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/i18n.js" defer></script>
+  <script src="js/core.js" defer></script>
+  <script src="js/cursos.js" defer></script>
+</head>
+<body data-page="cursos">
+  <a class="skip-link" href="#main" data-i18n="nav.skip">Pular para o conteúdo</a>
+  <header class="site-header" id="site-header"></header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="pattern pattern--fade-left" aria-hidden="true"></div>
+      <div class="container">
+        <div class="page-hero__inner">
+          <span class="eyebrow" id="page-eyebrow">ensino</span>
+          <h1 class="page-hero__title" data-i18n="courses.title">Cursos</h1>
+          <p class="page-hero__intro" id="page-intro"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="toolbar">
+          <div class="chips" id="course-tags" aria-label="Filtrar por tema" data-i18n-attr="aria-label:courses.filter"></div>
+        </div>
+        <p class="result-count" id="course-count" aria-live="polite"></p>
+        <ul class="course-grid" id="course-grid">
+          <li class="skeleton" style="min-height: 360px"></li>
+          <li class="skeleton" style="min-height: 360px"></li>
+          <li class="skeleton" style="min-height: 360px"></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="site-footer"></footer>
+</body>
+</html>

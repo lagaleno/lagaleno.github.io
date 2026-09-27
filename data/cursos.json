@@ -1,0 +1,161 @@
+[
+  {
+    "id": "introducao-python",
+    "title": {
+      "pt": "Introdução à Programação com Python",
+      "en": "Introduction to Programming with Python"
+    },
+    "institution": { "pt": "Curso independente", "en": "Independent course" },
+    "period": "2020",
+    "year": 2020,
+    "workload": "",
+    "audience": {
+      "pt": "Estudantes de graduação iniciando em programação",
+      "en": "Undergraduate students new to programming"
+    },
+    "format": { "pt": "Presencial", "en": "In person" },
+    "featured": true,
+    "tags": ["python", { "pt": "programação", "en": "programming" }],
+    "summary": {
+      "pt": "Curso próprio criado a partir da experiência ajudando colegas da graduação com as dificuldades iniciais de aprender a programar em Python.",
+      "en": "A course I created from my experience helping fellow undergraduates through the first difficulties of learning to program in Python."
+    },
+    "description": {
+      "pt": [
+        "Ao longo da graduação ajudei muitos estudantes a superar dificuldades ao aprender programação com Python. Com isso em mente, desenvolvi meu próprio curso de \"Introdução ao Python\".",
+        "Ao final do curso, apliquei um questionário para medir a qualidade das aulas e do material."
+      ],
+      "en": [
+        "Throughout my undergraduate studies I helped many students overcome difficulties while learning to program with Python. With that in mind, I developed my own \"Introduction to Python\" course.",
+        "At the end of the course I applied a survey to measure the quality of the classes and material. (The slides are in Portuguese.)"
+      ]
+    },
+    "goals": [],
+    "modules": [],
+    "materials": [
+      {
+        "label": { "pt": "Slides do curso (Google Drive)", "en": "Course slides (Google Drive, in Portuguese)" },
+        "type": "slides",
+        "url": "https://drive.google.com/drive/folders/1tYV7tnNlnyZ3EUon1BGrSuLzg-VNonLv?usp=sharing"
+      }
+    ]
+  },
+  {
+    "id": "fundamentos-ui-ux",
+    "title": { "pt": "Fundamentos de UI/UX", "en": "UI/UX Fundamentals" },
+    "institution": "Instituição Exemplo",
+    "period": "2022.2",
+    "year": 2022,
+    "workload": "12h",
+    "audience": {
+      "pt": "Estudantes e profissionais interessados em design de interfaces",
+      "en": "Students and professionals interested in interface design"
+    },
+    "format": { "pt": "Minicurso", "en": "Short course" },
+    "featured": true,
+    "tags": ["ui/ux", { "pt": "IHC", "en": "HCI" }, "figma"],
+    "summary": {
+      "pt": "EXEMPLO — introdução prática a design de interfaces: pesquisa com usuários, avaliação heurística, prototipação no Figma e testes de usabilidade.",
+      "en": "EXAMPLE — a hands-on introduction to interface design: user research, heuristic evaluation, prototyping in Figma and usability testing."
+    },
+    "description": {
+      "pt": ["EXEMPLO — substitua este texto em data/cursos.json. Neste minicurso percorremos o ciclo básico de design centrado no usuário, do entendimento do problema até o teste de um protótipo navegável."],
+      "en": ["EXAMPLE — replace this text in data/cursos.json. In this short course we go through the basic user-centered design cycle, from understanding the problem to testing a clickable prototype."]
+    },
+    "goals": {
+      "pt": [
+        "Conduzir uma avaliação heurística simples",
+        "Criar um protótipo navegável no Figma",
+        "Planejar e aplicar um teste de usabilidade"
+      ],
+      "en": [
+        "Run a simple heuristic evaluation",
+        "Build a clickable prototype in Figma",
+        "Plan and run a usability test"
+      ]
+    },
+    "modules": [
+      {
+        "title": { "pt": "Aula 1 — Pesquisa com usuários", "en": "Class 1 — User research" },
+        "topics": {
+          "pt": ["Entrevistas", "Personas", "Mapeamento de problemas"],
+          "en": ["Interviews", "Personas", "Problem mapping"]
+        },
+        "materials": [
+          { "label": { "pt": "Slides da aula 1", "en": "Class 1 slides" }, "type": "slides", "url": "" }
+        ]
+      },
+      {
+        "title": { "pt": "Aula 2 — Avaliação heurística", "en": "Class 2 — Heuristic evaluation" },
+        "topics": {
+          "pt": ["As 10 heurísticas de Nielsen", "Exercício prático"],
+          "en": ["Nielsen's 10 heuristics", "Hands-on exercise"]
+        },
+        "materials": [
+          { "label": { "pt": "Slides da aula 2", "en": "Class 2 slides" }, "type": "slides", "url": "" },
+          { "label": { "pt": "Roteiro do exercício", "en": "Exercise guide" }, "type": "pdf", "url": "" }
+        ]
+      },
+      {
+        "title": { "pt": "Aula 3 — Prototipação e testes", "en": "Class 3 — Prototyping and testing" },
+        "topics": {
+          "pt": ["Wireframes e protótipos no Figma", "Testes de usabilidade"],
+          "en": ["Wireframes and prototypes in Figma", "Usability testing"]
+        },
+        "materials": [
+          { "label": { "pt": "Arquivo do Figma", "en": "Figma file" }, "type": "link", "url": "" },
+          { "label": { "pt": "Gravação da aula", "en": "Class recording" }, "type": "video", "url": "" }
+        ]
+      }
+    ],
+    "materials": [
+      { "label": { "pt": "Pasta com todo o material", "en": "Folder with all the material" }, "type": "folder", "url": "" }
+    ]
+  },
+  {
+    "id": "ciencia-de-dados-python",
+    "title": { "pt": "Ciência de Dados com Python", "en": "Data Science with Python" },
+    "institution": "Instituição Exemplo",
+    "period": "2021.1",
+    "year": 2021,
+    "workload": "20h",
+    "audience": {
+      "pt": "Pessoas com noções básicas de Python",
+      "en": "People with basic Python knowledge"
+    },
+    "format": { "pt": "Remoto", "en": "Online" },
+    "tags": ["python", { "pt": "dados", "en": "data" }, { "pt": "visualização", "en": "visualization" }],
+    "summary": {
+      "pt": "EXEMPLO — análise exploratória, visualização e primeiros modelos usando pandas, matplotlib e Google Colab.",
+      "en": "EXAMPLE — exploratory analysis, visualization and first models using pandas, matplotlib and Google Colab."
+    },
+    "description": {
+      "pt": ["EXEMPLO — substitua este texto em data/cursos.json."],
+      "en": ["EXAMPLE — replace this text in data/cursos.json."]
+    },
+    "goals": [],
+    "modules": [
+      {
+        "title": { "pt": "Módulo 1 — Manipulando dados com pandas", "en": "Module 1 — Working with data in pandas" },
+        "topics": {
+          "pt": ["Series e DataFrames", "Limpeza de dados"],
+          "en": ["Series and DataFrames", "Data cleaning"]
+        },
+        "materials": [
+          { "label": { "pt": "Notebook do módulo 1", "en": "Module 1 notebook" }, "type": "code", "url": "" }
+        ]
+      },
+      {
+        "title": { "pt": "Módulo 2 — Visualização", "en": "Module 2 — Visualization" },
+        "topics": {
+          "pt": ["matplotlib", "Boas práticas de gráficos"],
+          "en": ["matplotlib", "Chart best practices"]
+        },
+        "materials": [
+          { "label": { "pt": "Notebook do módulo 2", "en": "Module 2 notebook" }, "type": "code", "url": "" }
+        ]
+      }
+    ],
+    "materials": []
+  }
+]

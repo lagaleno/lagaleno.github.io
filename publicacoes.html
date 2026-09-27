@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="meta.pubs">Publicações · Larissa Galeno</title>
+  <meta name="description" content="Artigos e trabalhos publicados por Larissa Galeno, com resumo e link para o texto completo.">
+  <meta name="theme-color" content="#9E3222">
+  <link rel="icon" href="assets/img/brand/logo.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/font/AirbnbCerealBook.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/i18n.js" defer></script>
+  <script src="js/core.js" defer></script>
+  <script src="js/publicacoes.js" defer></script>
+</head>
+<body data-page="publicacoes">
+  <a class="skip-link" href="#main" data-i18n="nav.skip">Pular para o conteúdo</a>
+  <header class="site-header" id="site-header"></header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="pattern pattern--fade-left" aria-hidden="true"></div>
+      <div class="container">
+        <div class="page-hero__inner">
+          <span class="eyebrow" id="page-eyebrow">produção acadêmica</span>
+          <h1 class="page-hero__title" data-i18n="pubs.title">Publicações</h1>
+          <p class="page-hero__intro" id="page-intro"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="toolbar" role="search">
+          <label class="search">
+            <span class="sr-only" data-i18n="pubs.searchLabel">Buscar publicações</span>
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            <input type="search" id="pub-search" placeholder="Buscar por título, autor, palavra-chave…" data-i18n-attr="placeholder:pubs.search" autocomplete="off">
+          </label>
+          <div class="chips" id="pub-types" aria-label="Filtrar por tipo" data-i18n-attr="aria-label:pubs.filterType"></div>
+          <label>
+            <span class="sr-only" data-i18n="pubs.filterYear">Filtrar por ano</span>
+            <select class="select" id="pub-year"><option value="" data-i18n="pubs.allYears">todos os anos</option></select>
+          </label>
+        </div>
+        <p class="result-count" id="pub-count" aria-live="polite"></p>
+        <ol class="pub-list" id="pub-list">
+          <li class="skeleton"></li>
+          <li class="skeleton"></li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="site-footer"></footer>
+</body>
+</html>
