@@ -39,6 +39,7 @@ Se faltar a versão de um idioma, o site usa a outra. Os textos fixos da interfa
 - **Publicação:** `url` (página do artigo), `pdf` e `doi` são opcionais — botões só aparecem quando preenchidos. Link direto: `publicacoes.html#<id>`.
 - **Curso:** `id` vira a URL da página (`curso.html?id=<id>`). Materiais aceitam `type`: `slides`, `pdf`, `video`, `code`, `folder` ou `link`. Material com `url` vazia aparece como "em breve".
 - **PDF do currículo:** os botões "Ver PDF" e "Baixar PDF" usam os arquivos em `files` de `curriculo.json`. Depois de editar o currículo, regenere os PDFs (PT e EN) a partir da própria página, com o servidor local rodando: `./scripts/gerar-pdf-curriculo.sh`. Se preferir usar um PDF próprio, coloque-o em `assets/docs/` e aponte o caminho em `files`.
+- **Publicando mudanças de CSS/JS:** o GitHub Pages deixa esses arquivos em cache por 10 minutos. Ao alterar qualquer `.css` ou `.js`, aumente o número em `?v=` nos arquivos `.html` (ex.: `?v=2` → `?v=3`) para que quem já visitou o site receba a versão nova. Mudanças só nos `.json` não precisam disso.
 - **Foto:** coloque a imagem em `assets/img/` e aponte `photo` em `site.json` (ex.: `"assets/img/foto.jpg"`). Sem foto, aparece o logo.
 
 ## Estrutura
